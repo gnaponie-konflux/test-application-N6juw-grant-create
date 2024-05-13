@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/gnaponie-konflux/default/test-application/devfile-sample-python-basic@sha256:fd65e8107ee3ce847700a35b99b0d2df58186188d5d5af9d13a617b9059fb2bd
         name: my-python
         ports:
         - containerPort: 8081
